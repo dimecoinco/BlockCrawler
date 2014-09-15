@@ -55,18 +55,12 @@
 		echo "			".$network_info["connections"]."\n";
 		echo "		</div>\n";
 		echo "\n";
-
-		$net_speed = getnetworkhashps ();
-		
-		if ($net_speed != "")
-		{
-			echo "		<div class=\"node_detail\">\n";
-			echo "			<span class=\"node_desc\">Network H/s:</span><br>\n";
-			echo "			".$net_speed."\n";
-			echo "		</div>\n";
-			echo "\n";
-		}
-		
+                //******************************************************************/
+                //Cut below here
+                //******************************************************************/
+		//******************************************************************/
+                //Cut above here
+                //******************************************************************/
 		echo "	</div>\n";
 		echo "\n";
 
@@ -106,10 +100,3 @@
 	
 	
 	site_footer ();
-
-/******************************************************************************
-	This script is Copyright © 2013 Jake Paysnoe.
-	I hereby release this script into the public domain.
-	Jake Paysnoe Jun 26, 2013
-******************************************************************************/
-?>
