@@ -1,3 +1,7 @@
+This is a great block crawler. But I have modified block_crawler.php,
+which causes an error if a daemon does not have "getnetworkhashps" as an rpc call. 
+
+
 Block Crawler Instructions
 
 Ensure that you have the following files:
